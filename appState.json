@@ -1,0 +1,126 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "e3d20263-c97e-49e8-95b7-55624d9c3888": {
+        "id": "e3d20263-c97e-49e8-95b7-55624d9c3888",
+        "parent": null,
+        "name": "testysamplyohii",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "4538afb6-e26f-4087-8b06-4ce14b58271a"
+        ],
+        "isRemovable": false,
+        "filePath": "testysamplyohii"
+      },
+      "4538afb6-e26f-4087-8b06-4ce14b58271a": {
+        "id": "4538afb6-e26f-4087-8b06-4ce14b58271a",
+        "parent": "e3d20263-c97e-49e8-95b7-55624d9c3888",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testysamplyohii/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast2myapiput",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "e3d20263-c97e-49e8-95b7-55624d9c3888",
+    "openFiles": [
+      "4538afb6-e26f-4087-8b06-4ce14b58271a"
+    ],
+    "currentFileId": "4538afb6-e26f-4087-8b06-4ce14b58271a",
+    "resources": {
+      "apigusEast2myapiput": {
+        "name": "apigusEast2myapiput",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-2",
+          "apiMode": 1,
+          "apiName": "myapi",
+          "apiId": "8facv6bud4",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "5z5yy2ayue",
+          "existingResources": {
+            "/": "5z5yy2ayue"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "5z5yy2ayue",
+          "restMethod": "PUT",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test",
+          "stageDeploymentId": "jznklm",
+          "mode": 1
+        }
+      },
+      "s3cloud9Ktest": {
+        "name": "s3cloud9Ktest",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-2",
+            "name": "cloud9-ktest"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "javascript",
+          "version": "2.176.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testysamplyohii",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-2",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1581487537692
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testysamplyohii",
+      "url": "https://github.com/Indunil1992/testysamplyohii"
+    }
+  }
+}
